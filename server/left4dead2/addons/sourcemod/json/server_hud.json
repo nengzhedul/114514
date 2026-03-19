@@ -1,0 +1,39 @@
+{
+	"convar": [],
+	"0": {
+		"hudText": "${serverName} (${playerCount} / ${maxPlayers})  Tick：${serverTick}",
+		"hudflags": [
+			64,
+			256,
+			8192
+		],
+		"posX": 0.00,
+		"posY": 0.00,
+		"width": 1.0,
+		"height": 0.03
+	},
+	"1": {
+		"hudText": "${mapName} [${currentChapter} / ${maxChapters}]  路程: ${surFlow} / 100",
+		"hudflags": [
+			64,
+			256,
+			8192
+		],
+		"posX": 0.00,
+		"posY": 0.04,
+		"width": 1.0,
+		"height": 0.03
+	},
+	"2": {
+		"hudText": "游戏计时: ${timeCount}   时间: ${time} ${weekDay}  Si：${infectedCount}",
+		"hudflags": [
+			64,
+			256,
+			8192
+		],
+		"posX": 0.00,
+		"posY": 0.08,
+		"width": 1.0,
+		"height": 0.03
+	}
+}
